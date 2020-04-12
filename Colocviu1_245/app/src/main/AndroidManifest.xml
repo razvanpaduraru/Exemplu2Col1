@@ -23,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name="ro.pub.cs.systems.eim.colocviu1_245.service.Colocviu1_245Service"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>
